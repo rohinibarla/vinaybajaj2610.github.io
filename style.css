@@ -59,7 +59,10 @@ hr {
   margin-bottom: 30px;
 }
 
-
+.fb-share-button {
+  float:right;
+  margin-right: 100px;
+}
 .variants {
   margin-top: 10px;
   padding: 10px;
