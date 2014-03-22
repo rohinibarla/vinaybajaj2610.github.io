@@ -1,0 +1,154 @@
+@import url(fonts.css);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #faf8ef;
+  color: #776e65;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; 
+}
+
+body {
+  margin: 20px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65; 
+}
+
+a {
+  color: #776e65;
+  font-weight: bold;
+  text-decoration:none; 
+}
+
+#line{
+ text-decoration:underline; 
+}
+
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+table {
+  border-collapse:separate; 
+  border-spacing:.5em;
+}
+
+
+hr {
+  border: none;
+  border-bottom: 1px solid #d8d4d0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.variants {
+  margin-top: 10px;
+  padding: 10px;
+  background: #bbada0;
+  border-radius: 20px;
+}
+
+.variant {
+  margin-bottom: 15px;
+  padding: 25px;
+}
+
+.variant-cell {
+    width: 360px;
+    height: 23px;
+    margin-right: 15px;
+    float: left;
+    background: rgba(238, 228, 218, 0.35); }
+    .variant-cell:last-child {
+        margin-right: 0;
+}
+
+.variant:last-child {
+    margin-bottom: 0;
+}
+
+.variant-cell:nth-child(2n+1) {
+  background: #ede0c8;
+}
+
+
+.variant-cell:nth-child(2n) {
+  background: #eee4da;
+}
+
+.contributing {
+    margin-top: 50px;
+}
+
+.grid-container {
+  position: absolute;
+  z-index: 1; }
+
+.grid-row {
+  margin-bottom: 15px; }
+  .grid-row:last-child {
+    margin-bottom: 0; }
+  .grid-row:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.grid-cell {
+  width: 106.25px;
+  height: 106.25px;
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35); }
+  .grid-cell:last-child {
+    margin-right: 0; }
+
+@media screen and (max-width: 640px) {
+  html, body {
+    font-size: 15px; 
+  }
+
+  body {
+    margin: 20px 0;
+    padding: 0 20px; 
+  }
+
+  h1 {
+    font-size: 27px;
+    margin-top: 15px; 
+  }
+
+  .container {
+    width: 280px;
+    margin: 0 auto; 
+  }
+
+  .variants-list {
+    padding: 10px;
+  }
+
+  .variant {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
